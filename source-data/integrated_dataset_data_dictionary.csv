@@ -1,0 +1,16 @@
+﻿Field Name,Data Type,Units,Description
+Date,Date,MM/DD/YYYY,Date the sensor measurement was recorded.
+Time,Time,HH:MM AM/PM,Time the soil sensor measurement was recorded.
+SensorID,Text,None,Identifier of the soil sensor collecting the measurement.
+BedID,Text,None,Identifier of the flower bed being monitored.
+SoilMoisture,Decimal,% VWC (verify),Recorded volumetric soil moisture measurement; confirm unit in original CSV.
+SoilTemp,Decimal,°F (verify),Recorded soil temperature; confirm unit in original CSV.
+BatteryLevel_%,Decimal,%,Recorded sensor battery level; values may be missing.
+airTemperature,Decimal,°C,Air temperature measured by the environmental weather station.
+humidity,Integer,%,Relative humidity measured by the environmental weather station.
+windSpeed,Decimal,mph,Wind speed measured by the environmental weather station.
+sunlightIntensity,Decimal,lux,Sunlight intensity measured by the weather station; blank/null when not reported.
+AvgOnFlowRateLast2h,Decimal,GPM (verify),"Mean reported flow rate of pump records marked ON during the preceding two-hour window, across logged zones; confirm unit in original JSON."
+PumpStatusRecordsLast2h,Integer,Count,Number of pump records logged across zones in the preceding two-hour window; not an ON/OFF status.
+PumpOnRecordsLast2h,Integer,Count,Number of pump records marked ON across zones in the preceding two-hour window.
+activationMode,Text,None,Pump activation mode (e.g. automatic or manual) when supplied; missing values remain blank.
