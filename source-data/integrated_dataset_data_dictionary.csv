@@ -10,7 +10,7 @@ airTemperature,Decimal,°C,Air temperature measured by the environmental weather
 humidity,Integer,%,Relative humidity measured by the environmental weather station.
 windSpeed,Decimal,mph,Wind speed measured by the environmental weather station.
 sunlightIntensity,Decimal,lux,Sunlight intensity measured by the weather station; blank/null when not reported.
-AvgOnFlowRateLast2h,Decimal,GPM (verify),"Mean reported flow rate of pump records marked ON during the preceding two-hour window, across logged zones; confirm unit in original JSON."
+AvgOnFlowRateLast2h,Decimal,GPM ,"Mean reported flow rate of pump records marked ON during the preceding two-hour window, across logged zones; confirm unit in original JSON."
 PumpStatusRecordsLast2h,Integer,Count,Number of pump records logged across zones in the preceding two-hour window; not an ON/OFF status.
 PumpOnRecordsLast2h,Integer,Count,Number of pump records marked ON across zones in the preceding two-hour window.
-activationMode,Text,None,Pump activation mode (e.g. automatic or manual) when supplied; missing values remain blank.
+activationMode,Text,None,Pump activation mode, when supplied; missing values remain blank.
