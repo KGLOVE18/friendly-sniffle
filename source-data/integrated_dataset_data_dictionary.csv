@@ -3,8 +3,8 @@ Date,Date,MM/DD/YYYY,Date the sensor measurement was recorded.
 Time,Time,HH:MM AM/PM,Time the soil sensor measurement was recorded.
 SensorID,Text,None,Identifier of the soil sensor collecting the measurement.
 BedID,Text,None,Identifier of the flower bed being monitored.
-SoilMoisture,Decimal,% VWC (verify),Recorded volumetric soil moisture measurement; confirm unit in original CSV.
-SoilTemp,Decimal,°F (verify),Recorded soil temperature; confirm unit in original CSV.
+SoilMoisture,Decimal,% VWC,Recorded volumetric soil moisture measurement; confirm unit in original CSV.
+SoilTemp,Decimal,°F ,Recorded soil temperature; confirm unit in original CSV.
 BatteryLevel_%,Decimal,%,Recorded sensor battery level; values may be missing.
 airTemperature,Decimal,°C,Air temperature measured by the environmental weather station.
 humidity,Integer,%,Relative humidity measured by the environmental weather station.
